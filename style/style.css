@@ -373,9 +373,36 @@ footer{
 }
 
 /* footer related style */
+footer{
+  display: flex;
+}
+
+footer div{
+  width: 25%;
+}
+
+footer div ul > li{
+  margin-bottom: 25px;
+}
+
 .footer-anchor >li> a{
 text-decoration: none;
+
 }
 .footer-anchor{
   list-style: none;
+}
+.footer-anchor2 > li > a{
+  text-decoration: none;
+}
+.footer-anchor2 > li{
+  list-style: none;
+}
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+.footer-social  li{
+  list-style: none;
+
 }
