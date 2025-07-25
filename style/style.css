@@ -318,7 +318,7 @@ body {
 
 /* join bunch related style */
 .bunch{
-  background-image: url('/assets/news-letter-bg.png');
+  background-image: url('../assets/news-letter-bg.png');
   margin-bottom: 200px;
   padding: 119px 420px;
 }
