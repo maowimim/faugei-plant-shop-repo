@@ -175,6 +175,7 @@ body {
   gap: 30px 20px;
   justify-content: center;
   margin-top: 49px;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 576px) {
   .plant-grid{
@@ -213,7 +214,7 @@ body {
 }
 .plant-lover{
   width: 1140px;
-  margin: 80px auto;
+  margin: 150px auto;
   padding: 0 20px;
 }
 .plants-container{
@@ -221,11 +222,12 @@ body {
 
   align-items: flex-start;
   justify-content: space-between;
-  flex-wrap: wrap;
+ 
+
 }
 .plants-image{
-  position: relative;
-  width: 540px;
+  
+ 
   height: 597px;
   display: flex;
   flex-direction: column;
@@ -237,10 +239,13 @@ body {
   height: 100%;
   object-fit: cover;
 }
-.plants-image .badge{
-  top: 20px;
-  right: 20px;
-  width: 130px;
+
+
+#badge{
+  width: 260px;
+  height: 260px;
+  margin-left: 200px;
+  margin-top: -700px;
 }
 
 .plants-content{
@@ -354,6 +359,13 @@ font-weight: 600;
     width: 500px;
     background-size: cover;
   }
+ .bunch-form  input[type="email"]{
+  background-color: white;
+  padding-right: 150px;
+  height: 50px;
+  border: none;
+}
+  
   
 }
 /* footer related css */
@@ -406,3 +418,22 @@ text-decoration: none;
   list-style: none;
 
 }
+@media screen and (max-width:576px) {
+  footer{
+    flex-direction: column;
+  }
+}
+
+
+ @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+.animate-infinite-spin {
+            animation: spin 3s linear infinite; /* 3 seconds duration, linear timing, infinite repetition */
+        }
