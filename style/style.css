@@ -371,3 +371,11 @@ footer{
   }
 
 }
+
+/* footer related style */
+.footer-anchor >li> a{
+text-decoration: none;
+}
+.footer-anchor{
+  list-style: none;
+}
